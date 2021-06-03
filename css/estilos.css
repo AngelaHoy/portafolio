@@ -3,17 +3,19 @@
     margin: 0;
     padding: 0;
     font-family: 'APOLLO Regular';
+    overflow-x: hidden;
 }
 
 @font-face {
     font-family: 'APOLLO Regular';
-    src: url('/apollo/APOLLO.otf');
+    src: url('apollo/APOLLO.otf');
 }
 
 body{
     overflow-x: hidden;
     background-color: #ebebeb;
 }
+
 nav{
     background-color: #202020;
     display: flex;
